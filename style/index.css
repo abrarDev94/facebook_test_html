@@ -1,0 +1,194 @@
+.headerContainer {
+  width: 100%;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  display: flex;
+}
+.search {
+  width: 25%;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.image {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.social {
+  width: 50%;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.borderlessImage {
+  width: 40px;
+  height: 40px;
+}
+.accountSection {
+  width: 25%;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.accountSection2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.accountSectionName {
+  text-decoration: none;
+  color: black;
+}
+
+.contentContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#linksContainer {
+  width: 20%;
+  background-color: whitesmoke;
+  border: solid 2px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4%;
+  text-decoration: none;
+}
+#linkItem {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.linkTextContainer {
+  font-size: large;
+  text-decoration: none;
+}
+
+.linkImage {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 20px;
+}
+
+.postContainer {
+  width: 58%;
+  background-color: whitesmoke;
+  border: solid 2px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.post {
+  align-self: center;
+  margin-top: 2%;
+}
+.reels {
+  border-radius: 20px;
+  width: 125px;
+  height: 175px;
+}
+.commentbox {
+  align-self: center;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: rgb(239, 239, 239);
+  margin-top: 10%;
+}
+.commentboxDiv {
+  width: 90%;
+  display: flex;
+  align-self: center;
+  border-radius: 15px;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+.commentboxImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 5%;
+}
+.commentboxInput {
+  margin-left: 2%;
+  width: 80%;
+  border-radius: 30px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.line {
+  width: 70%;
+  border: 1px black solid;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.actionContainer {
+  width: 90%;
+  margin-bottom: 2%;
+  display: flex;
+  align-self: center;
+  border-radius: 15px;
+  justify-content: space-evenly;
+}
+.actionItem {
+  display: flex;
+  align-items: center;
+}
+.actionImage {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.friendList {
+  width: 20%;
+  height: 100;
+  background-color: whitesmoke;
+  border: solid 2px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.friendItem {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.anchorTagContainer {
+  width: 100%;
+  height: 50px;
+  border: solid 2px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.anchorTag {
+  font-size: large;
+  text-decoration: none;
+  font-weight: bold;
+}
